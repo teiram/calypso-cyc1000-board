@@ -1,0 +1,8 @@
+(fp_lib_table
+  (lib (name "rp2040")(type "KiCad")(uri "${KIPRJMOD}/rp2040-breakout.pretty")(options "")(descr ""))
+  (lib (name "c1000")(type "KiCad")(uri "${KIPRJMOD}/c1000.pretty")(options "")(descr ""))
+  (lib (name "microsd")(type "KiCad")(uri "${KIPRJMOD}/microsd.pretty")(options "")(descr ""))
+  (lib (name "minidin")(type "KiCad")(uri "${KIPRJMOD}/minidin.pretty")(options "")(descr ""))
+  (lib (name "conn-ext")(type "KiCad")(uri "${KIPRJMOD}/w_conn_av.pretty")(options "")(descr ""))
+  (lib (name "jack")(type "KiCad")(uri "${KIPRJMOD}/jack.pretty")(options "")(descr ""))
+)

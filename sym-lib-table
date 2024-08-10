@@ -1,0 +1,6 @@
+(sym_lib_table
+  (lib (name "calypso-addons")(type "KiCad")(uri "${KIPRJMOD}/calypso-addons.kicad_sym")(options "")(descr ""))
+  (lib (name "rp2040")(type "KiCad")(uri "${KIPRJMOD}/rp2040-breakout.kicad_sym")(options "")(descr ""))
+  (lib (name "microsd")(type "KiCad")(uri "${KIPRJMOD}/micro_sd_card.kicad_sym")(options "")(descr ""))
+  (lib (name "rca")(type "KiCad")(uri "${KIPRJMOD}/RCJ-013.kicad_sym")(options "")(descr ""))
+)
