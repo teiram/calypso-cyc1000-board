@@ -4,7 +4,7 @@ Calypso is just another middleboard based on the Arrow/Trenz cyc1000 board. This
 
 The board takes ideas and design from other existing hobbyist project boards, embracing the following design principles:
 - Doesn't try to support multiple FPGAs and/or MCUs. it's based on the CYC1000 board and an R2040 as MCU
-- Follows the Mist ideas about IO, being the MCU the hub for most IO needs. This is conveniente since the CYC1000 doesn't expose a big number of pins to the outside world.
+- Follows the Mist ideas about IO, being the MCU the hub for most IO needs. This is convenient since the CYC1000 doesn't expose a big number of pins to the outside world.
 - Tries to be compatible to some extent with Mist IO, therefore exposing a SPI bus mastered by the MCU to the FPGA, and the well known select signals CONF_DATA0, MIST_SS2, MIST_SS3 and MIST_SS4. This should ease the task of porting cores from Mist or boards with a similar design.
 # Features
 - VGA444 output via an standard VGA DB15 connector
