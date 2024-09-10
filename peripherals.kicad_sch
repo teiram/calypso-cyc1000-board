@@ -6,8 +6,8 @@
 
   (title_block
     (title "Calypso")
-    (date "2024-08-10")
-    (rev "0.2")
+    (date "2024-09-10")
+    (rev "0.3-pre")
   )
 
   (lib_symbols
@@ -4328,10 +4328,10 @@
   (symbol (lib_id "Device:C_Small") (at 120.076 66.5727 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 4a6967d4-7c2e-400d-8c48-63b7599d0a8a)
-    (property "Reference" "C17" (id 0) (at 123.251 65.3026 0)
+    (property "Reference" "C17" (id 0) (at 123.19 65.3089 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "2.2uF" (id 1) (at 123.251 67.8426 0)
+    (property "Value" "2.2nF" (id 1) (at 123.19 67.8489 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder" (id 2) (at 120.076 66.5727 0)
@@ -4577,10 +4577,10 @@
   (symbol (lib_id "Device:C_Small") (at 107.95 65.405 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 754b3885-a416-445d-bd4e-0deaaad09972)
-    (property "Reference" "C16" (id 0) (at 111.76 64.1349 0)
+    (property "Reference" "C16" (id 0) (at 110.49 64.1412 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "2.2uF" (id 1) (at 111.76 66.6749 0)
+    (property "Value" "2.2nF" (id 1) (at 110.49 66.6812 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder" (id 2) (at 107.95 65.405 0)

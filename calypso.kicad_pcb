@@ -4693,7 +4693,7 @@
   (gr_line (start 69.088 51.816) (end 69.088 44.196) (layer "F.SilkS") (width 0.12) (tstamp f4e1552e-263e-4b60-86eb-eb807a16598f))
   (gr_line (start 84.836 60.706) (end 84.836 57.658) (layer "F.SilkS") (width 0.12) (tstamp fe85cc68-8130-4bf2-9f13-5f4043caf601))
   (gr_rect (start 25.4 20.32) (end 124.46 119.38) (layer "Edge.Cuts") (width 0.05) (fill none) (tstamp 737aea29-9a25-491c-b76d-3d8a0e828deb))
-  (gr_text "Calypso 0.2\noverCLK & The RetroWiki FPGADev Team\nAug 2024" (at 109.728 24.384) (layer "B.SilkS") (tstamp dcb61f29-6773-40f1-b906-e49b6037a81d)
+  (gr_text "Calypso 0.3-pre\noverCLK & The RetroWiki FPGADev Team\nSep 2024" (at 109.728 24.384) (layer "B.SilkS") (tstamp dcb61f29-6773-40f1-b906-e49b6037a81d)
     (effects (font (size 1 1) (thickness 0.15)) (justify left mirror))
   )
   (gr_text "J14" (at 104.394 82.296 270) (layer "F.SilkS") (tstamp 010b38a0-b9d3-4e7b-8c54-656ae2b3af33)

@@ -6,8 +6,8 @@
 
   (title_block
     (title "Calypso")
-    (date "2024-08-10")
-    (rev "0.2")
+    (date "2024-09-10")
+    (rev "0.3-pre")
   )
 
   (lib_symbols
@@ -2304,10 +2304,10 @@
       (reference "C15") (unit 1) (value "100nF") (footprint "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder")
     )
     (path "/12e36b07-a255-47b2-a893-76c577c3e384/754b3885-a416-445d-bd4e-0deaaad09972"
-      (reference "C16") (unit 1) (value "2.2uF") (footprint "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder")
+      (reference "C16") (unit 1) (value "2.2nF") (footprint "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder")
     )
     (path "/12e36b07-a255-47b2-a893-76c577c3e384/4a6967d4-7c2e-400d-8c48-63b7599d0a8a"
-      (reference "C17") (unit 1) (value "2.2uF") (footprint "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder")
+      (reference "C17") (unit 1) (value "2.2nF") (footprint "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder")
     )
     (path "/e1c6d4fd-c5b0-4d46-8760-f7a20e8d24b3/35b8edd2-a860-4056-8a4e-09661833836b"
       (reference "C18") (unit 1) (value "10uF") (footprint "Capacitor_Tantalum_SMD:CP_EIA-3216-12_Kemet-S_Pad1.58x1.35mm_HandSolder")

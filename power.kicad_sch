@@ -6,8 +6,8 @@
 
   (title_block
     (title "Calypso")
-    (date "2024-08-10")
-    (rev "0.2")
+    (date "2024-09-10")
+    (rev "0.3-pre")
   )
 
   (lib_symbols
