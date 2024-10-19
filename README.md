@@ -34,3 +34,11 @@ Firmware for the RP2040 MCU is so far a fork of zxmicrojack for RP2040 based Mis
 # Disclaimer
 This is a personal project I started with the support of the RetroWiki FPGA Dev community (thank you guys). There is no aim for commercial benefit neither I will provide any warranty or support beyond what my free time allows for. Feel free to build the board for your personal use, or a limited batch of units for your pals. It works for me, but I tested it with a very limited set of hardware, so your milleage may vary.
 Enjoy ;)
+
+# Errata, issues
+## Version 0.2
+- Q2 footprint is wrong. The schematic shows a BC547 but a SMD BC847 was intended. Unfortunately the pinout doesn´t match. So in case you want to use the composite video output you need to adjust it accordingly. A BC847 can be installed by rotating it 90º counterclockwise, what makes soldering a bit trickier but it can be done.
+- The board supports RP2040 clones known as YD-2040 by VCC-GND studio. An official RP2040 won´t work completely due to:
+  - The SWD header in the official RP2040 has 3 pins instead of 4 pins, so you cannot take advantage of the SWD/UART connector but you can still attach your SWD device directly to the RP2040.
+  - YD-2040 exposes GPIO 23 on pin 37, which is not the case for in the official RP2040. Unfortunately GPIO23 is used for one of the DB9 joystick directions, and therefore a DB9 joystick won't work properly with an official RP2040
+  - The YD-2040 doesn´t expose VBUS on the breakboard pins, therefore USB devices can only be used if they are self-powered or connected through a self-powered USB hub. The official RP2040 exposes VBUS and therefore it would be possible to power the bus without the need of a powered hub. But since the design was based on the YD-2040 there is no provision for that. This might be addressed in future releases.
