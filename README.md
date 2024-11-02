@@ -36,6 +36,9 @@ This is a personal project I started with the support of the RetroWiki FPGA Dev 
 Enjoy ;)
 
 # Errata, issues
+## Version 0.3
+- Fixed Q2 footprint and updated values for C16 and C17. This version is so far untested, but since Q2 issue was fixed manually without need ro reroute the board again, there are good chances it's safe to use.
+  
 ## Version 0.2
 - Q2 footprint is wrong. The schematic shows a BC547 but a SMD BC847 was intended. Unfortunately the pinout doesn´t match. So in case you want to use the composite video output you need to adjust it accordingly. A BC847 can be installed by rotating it 90º counterclockwise, what makes soldering a bit trickier but it can be done.
 - The board supports RP2040 clones known as YD-2040 by VCC-GND studio. An official RP2040 won´t work completely due to:
