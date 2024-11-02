@@ -2390,8 +2390,8 @@
     (path "/12e36b07-a255-47b2-a893-76c577c3e384/00000000-0000-0000-0000-00006083b450"
       (reference "Q1") (unit 1) (value "BC846") (footprint "Package_TO_SOT_SMD:SOT-23")
     )
-    (path "/12e36b07-a255-47b2-a893-76c577c3e384/d6f727c0-10f5-45e5-9b54-ae309efb0605"
-      (reference "Q2") (unit 1) (value "BC547") (footprint "Package_TO_SOT_SMD:SOT-23")
+    (path "/12e36b07-a255-47b2-a893-76c577c3e384/76f0ae03-8a81-4e03-82cc-697b8a2d3dc9"
+      (reference "Q2") (unit 1) (value "BC846") (footprint "Package_TO_SOT_SMD:SOT-23")
     )
     (path "/e1c6d4fd-c5b0-4d46-8760-f7a20e8d24b3/17b889cf-4e7c-495c-bc5c-e14d2d03ca39"
       (reference "R1") (unit 1) (value "10K") (footprint "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder")
